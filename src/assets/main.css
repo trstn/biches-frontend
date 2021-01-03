@@ -1,0 +1,63 @@
+/* ./assets/css/tailwind.css */
+
+/* Fonts */ 
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+
+@font-face {
+    font-family: 'WindsorDOT';
+    src: url('./fonts/Windsor/WindsorDOT-Reg.eot');
+    src: url('./fonts/Windsor/WindsorDOT-Reg.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Windsor/WindsorDOT-Reg.woff2') format('woff2'),
+        url('./fonts/Windsor/WindsorDOT-Reg.woff') format('woff'),
+        url('./fonts/Windsor/WindsorDOT-Reg.ttf') format('truetype'),
+        url('./fonts/Windsor/WindsorDOT-Reg.svg#WindsorDOT-Reg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'WindsorDOT-Bold';
+    src: url('./fonts/Windsor/WindsorDOT-Bol.eot');
+    src: url('./fonts/Windsor/WindsorDOT-Bol.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Windsor/WindsorDOT-Bol.woff2') format('woff2'),
+        url('./fonts/Windsor/WindsorDOT-Bol.woff') format('woff'),
+        url('./fonts/Windsor/WindsorDOT-Bol.ttf') format('truetype'),
+        url('./fonts/Windsor/WindsorDOT-Bol.svg#WindsorDOT-Bol') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Coconat';
+    src: url('./fonts/Coconat/Coconat-Regular.eot');
+    src: url('./fonts/Coconat/Coconat-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Coconat/Coconat-Regular.woff2') format('woff2'),
+        url('./fonts/Coconat/Coconat-Regular.woff') format('woff'),
+        url('./fonts/Coconat/Coconat-Regular.ttf') format('truetype'),
+        url('./fonts/Coconat/Coconat-Regular.svg#Coconat-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Coconat-BoldExt';
+    src: url('./fonts/Coconat/Coconat-BoldExt.eot');
+    src: url('./fonts/Coconat/Coconat-BoldExt.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Coconat/Coconat-BoldExt.woff2') format('woff2'),
+        url('./fonts/Coconat/Coconat-BoldExt.woff') format('woff'),
+        url('./fonts/Coconat/Coconat-BoldExt.ttf') format('truetype'),
+        url('./fonts/Coconat/Coconat-BoldExt.svg#Coconat-BoldExt') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/* Tailwind */ 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
