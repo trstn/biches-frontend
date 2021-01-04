@@ -1,7 +1,7 @@
-const c1 = () => import(/* webpackChunkName: "page--src--templates--project-vue" */ "/Users/tristan/Sites/biches2021/src/templates/Project.vue")
-const c2 = () => import(/* webpackChunkName: "page--src--pages--about-vue" */ "/Users/tristan/Sites/biches2021/src/pages/About.vue")
-const c3 = () => import(/* webpackChunkName: "page--node-modules--gridsome--app--pages--404-vue" */ "/Users/tristan/Sites/biches2021/node_modules/gridsome/app/pages/404.vue")
-const c4 = () => import(/* webpackChunkName: "page--src--pages--index-vue" */ "/Users/tristan/Sites/biches2021/src/pages/Index.vue")
+const c1 = () => import(/* webpackChunkName: "page--src--templates--project-vue" */ "/Users/tristan/Sites/biches/biches-frontend/src/templates/Project.vue")
+const c2 = () => import(/* webpackChunkName: "page--src--pages--about-vue" */ "/Users/tristan/Sites/biches/biches-frontend/src/pages/About.vue")
+const c3 = () => import(/* webpackChunkName: "page--node-modules--gridsome--app--pages--404-vue" */ "/Users/tristan/Sites/biches/biches-frontend/node_modules/gridsome/app/pages/404.vue")
+const c4 = () => import(/* webpackChunkName: "page--src--pages--index-vue" */ "/Users/tristan/Sites/biches/biches-frontend/src/pages/Index.vue")
 
 export default [
   {
@@ -9,7 +9,7 @@ export default [
     component: c1
   },
   {
-    path: "/project/pepperoni-pizza-2/",
+    path: "/project/pepperoni-pizza/",
     component: c1
   },
   {

@@ -1,4 +1,4 @@
-import plugin_gridsome_plugin_tailwindcss_6 from "/Users/tristan/Sites/biches2021/node_modules/gridsome-plugin-tailwindcss/gridsome.client.js"
+import plugin_gridsome_plugin_tailwindcss_6 from "/Users/tristan/Sites/biches/biches-frontend/node_modules/gridsome-plugin-tailwindcss/gridsome.client.js"
 
 export default [
   {
